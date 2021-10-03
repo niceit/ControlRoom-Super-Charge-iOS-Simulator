@@ -60,7 +60,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         if authors.isNotEmpty {
             let content = NSViewController()
-            content.title = "Control Room"
+            content.title = "Control Room Simulator"
             let view = NSHostingView(rootView: AboutView(authors: authors))
             view.frame.size = view.fittingSize
             content.view = view

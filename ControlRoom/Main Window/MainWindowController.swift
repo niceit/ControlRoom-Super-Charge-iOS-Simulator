@@ -41,7 +41,7 @@ class MainWindowController: NSWindowController {
             backing: .buffered, defer: false)
         window.setFrameAutosaveName("Main Window")
         window.contentView = NSHostingView(rootView: windowContent())
-        window.title = "Control Room"
+        window.title = "Control Room Simulators - v2.1 | Release date: 01/10/2021"
         window.isMovableByWindowBackground = true
 
         // disable the system-generated tab bar menu items, because we can't use them
